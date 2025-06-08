@@ -18,6 +18,19 @@
 4. 根据需要修改CSS样式
 5. 部署到GitHub Pages
 
+## 目录结构/文件树
+```bash
+eloiseliang.github.io/
+├── index.html
+├── styles/
+│   └── main.css
+├── scripts/
+│   └── main.js
+├── images/
+│   └── profile.jpg
+└── README.md
+```
+
 ## 许可证
 
 MIT License

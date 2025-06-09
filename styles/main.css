@@ -239,3 +239,96 @@ footer {
         align-items: center;
     }
 }
+
+/* ===== 新增时间线样式 ===== */
+.timeline {
+    position: relative;
+    padding-left: 50px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--primary-color);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.timeline-date {
+    position: absolute;
+    left: -50px;
+    width: 120px;
+    text-align: right;
+    font-weight: bold;
+    color: var(--dark-color);
+}
+
+.timeline-content {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== 教育卡片 ===== */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.education-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.degree {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0.3rem 0;
+}
+
+/* ===== 徽章样式 ===== */
+.header-badges {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* ===== 快速事实 ===== */
+.quick-facts {
+    margin-top: 1rem;
+}
+
+.quick-facts i {
+    color: var(--primary-color);
+    width: 20px;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+

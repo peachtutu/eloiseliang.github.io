@@ -1,119 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Juntao LIANG | AI Product & Data Specialist</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #f8f9fa;
-      color: #212529;
-      line-height: 1.6;
-      padding: 2rem;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    h1 {
-      margin-bottom: 0.25rem;
-      font-size: 2rem;
-    }
-    h2 {
-      color: #495057;
-      font-size: 1.25rem;
-      margin-bottom: 1rem;
-    }
-    section {
-      max-width: 800px;
-      margin: auto;
-      background: #fff;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      margin-bottom: 2rem;
-    }
-    a {
-      color: #0077cc;
-      text-decoration: none;
-    }
-    .contact a {
-      display: block;
-    }
-    .blog-preview {
-      margin-top: 1.5rem;
-    }
-    .blog-preview h3 {
-      font-size: 1rem;
-      margin-bottom: 0.5rem;
-    }
-    .github-card {
-      margin-top: 1.5rem;
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juntao (Eloise) Liang | Data Scientist & AI Engineer</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>👋 Hi, I’m Juntao LIANG (梁君桃)</h1>
-    <h2>AI Product Engineer | Data Analyst | Fintech Enthusiast</h2>
-    <p>Based in Hong Kong | MSc @ ESSEC Business School & CentraleSupélec | Top Talent Pass Holder</p>
-  </header>
+    <header>
+        <div class="container">
+            <h1>Juntao (Eloise) Liang</h1>
+            <p class="subtitle">MSc Data Science & Business Analytics @ ESSEC x CentraleSupélec</p>
+            <div class="header-badges">
+                <span class="badge">AI Engineer</span>
+                <span class="badge">Data Product Manager</span>
+                <span class="badge">NLP Specialist</span>
+            </div>
+        </div>
+    </header>
 
-  <section>
-    <h2>💼 About Me</h2>
-    <p>I’m a cross-disciplinary product & data professional with experience spanning <strong>fintech, adtech, AI innovation</strong>, and <strong>data-driven product design</strong>. I’ve delivered impactful solutions in both <strong>corporate banking</strong> and <strong>tech startups</strong>, blending <strong>AI engineering</strong>, <strong>data analytics</strong>, and <strong>product management</strong>.</p>
-    <ul>
-      <li>Led digital transformation at Industrial Bank, launching RPA tools and E-CNY integrations</li>
-      <li>Built BI funnels and A/B testing platforms at Lalamove</li>
-      <li>Designed an LLM-powered trip planner at Accor</li>
-      <li>Enhanced attribution pipelines as Data Engineer at Adikteev</li>
-    </ul>
-  </section>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  <section>
-    <h2>🔧 Skills</h2>
-    <p><strong>Languages & Tools:</strong> Python, SQL, R, Streamlit, Docker, AWS, Git, Tableau, Power BI</p>
-    <p><strong>Techniques:</strong> A/B Testing, Causal Inference, ETL, Deep Learning, NLP, Prompt Engineering</p>
-  </section>
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/profile.jpg" alt="Juntao Liang" class="profile-img">
+                <div class="bio">
+                    <p>Data Scientist and AI Engineer with hybrid expertise in business analytics and technical implementation. Currently pursuing Master's degree at ESSEC & CentraleSupélec (ARWU #12), ranked #3 globally in Business Analytics by QS 2024.</p>
+                    <p>Specialized in building AI-powered products with 2+ years experience in fintech and data product management. HK Top Talent Pass holder with working rights in France/HK/China.</p>
+                    <div class="quick-facts">
+                        <p><i class="fas fa-map-marker-alt"></i> Based in Paris | Hong Kong | Shenzhen</p>
+                        <p><i class="fas fa-language"></i> Native Cantonese & Mandarin | Fluent English (IELTS 7.5) | Conversational French</p>
+                        <p><i class="fas fa-certificate"></i> Technical Skills: Python (PyTorch, TensorFlow), AWS, SQL, NLP, LLM, Data Visualization</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section>
-    <h2>🚀 Selected Projects</h2>
-    <ul>
-      <li><strong>AI Travel Planner for Accor:</strong> <a href="https://www.canva.com/design/DAGnspPgXY4/Nb18jvNyhs62SIx_ItMDiA/edit" target="_blank">View Demo</a></li>
-      <li><strong>S&P 500 Financial Report Text Mining (NLP):</strong> Management sentiment analysis vs stock trends</li>
-      <li><strong>Real-time BI Funnel Dashboard @ Lalamove:</strong> Improved order success by 17%</li>
-      <li><strong>VTA Tool @ Adikteev:</strong> Automated campaign monitoring and spend analysis</li>
-    </ul>
-  </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2024 - Dec 2024</div>
+                    <div class="timeline-content">
+                        <h3>Data Analyst Engineer Intern</h3>
+                        <h4>Adikteev Tech | Paris, FR</h4>
+                        <ul>
+                            <li>Engineered analytics tools using Python/SQL, implementing batch data pipelines saving 20+ hours/week</li>
+                            <li>Automated budget alert systems reducing manual errors by 80% through real-time monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2022 - Jul 2023</div>
+                    <div class="timeline-content">
+                        <h3>Digital Product Manager</h3>
+                        <h4>Industrial Bank Co. | Shenzhen, CN</h4>
+                        <ul>
+                            <li>Led fintech product delivery achieving 80% efficiency gains in loan approval systems</li>
+                            <li>Spearheaded E-CNY integration with Shenzhen Metro resolving API conflicts</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Add other experiences following same structure -->
+            </div>
+        </section>
 
-  <section class="contact">
-    <h2>📫 Contact</h2>
-    <a href="mailto:eloiseliang@163.com">📧 eloiseliang@163.com</a>
-    <a href="https://www.linkedin.com/in/juntao-liang-eloise" target="_blank">🔗 LinkedIn</a>
-    <a href="https://github.com/peachtutu/peachtutu.github.io/blob/main/Resume_JuntaoLIANG.pdf" target="_blank">📁 Resume (PDF)</a>
-  </section>
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>ESSEC Business School & CentraleSupélec</h3>
+                    <p class="degree">MSc Data Science & Business Analytics</p>
+                    <p class="date">2023-2025 | GPA: 15/20 (3.5/4.0)</p>
+                    <ul>
+                        <li>QS #3 globally in Business Analytics 2024</li>
+                        <li>Coursework: Generative AI, NLP, Deep Learning</li>
+                    </ul>
+                </div>
+                
+                <div class="education-card">
+                    <h3>Harbin Institute of Technology</h3>
+                    <p class="degree">MSc Information Management</p>
+                    <p class="date">2020-2022 | GPA: 85/100 (3.6/4.0)</p>
+                    <ul>
+                        <li>QTEM Exchange at Warwick Business School</li>
+                        <li>Graduate First Class Scholarship</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-  <section class="github-card">
-    <h2>📊 GitHub Activity</h2>
-    <img src="https://github-readme-stats.vercel.app/api?username=peachtutu&show_icons=true&theme=default" alt="GitHub Stats">
-  </section>
+        <section id="projects">
+            <h2>AI/Data Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Generative AI Travel Assistant</h3>
+                    <p>LLM-powered itinerary planner using AWS Bedrock (Claude 3.5) and RAG techniques</p>
+                    <div class="tech-tags">
+                        <span>LLM</span>
+                        <span>AWS</span>
+                        <span>LangChain</span>
+                    </div>
+                    <a href="#" class="project-link">View Demo</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>S&P 500 Sentiment Analysis</h3>
+                    <p>NLP pipeline analyzing correlation between financial report sentiment and stock trends</p>
+                    <div class="tech-tags">
+                        <span>NLP</span>
+                        <span>Python</span>
+                        <span>Sentiment Analysis</span>
+                    </div>
+                    <a href="#" class="project-link">View Report</a>
+                </div>
+            </div>
+        </section>
 
-  <section class="blog-preview">
-    <h2>📝 Latest Blog Posts</h2>
-    <div>
-      <h3><a href="blog/llm-travel-assistant.html">How I built an LLM-powered travel assistant for Accor</a></h3>
-      <p>Using Claude + LangChain + Google Maps API for personalized trip generation.</p>
-    </div>
-    <div>
-      <h3><a href="blog/nlp-financial-reports.html">Text mining S&P 500 reports: does sentiment matter?</a></h3>
-      <p>A look into 10 years of EDGAR filings and how management sentiment links to stock movement.</p>
-    </div>
-  </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>AI/ML</h3>
+                    <ul>
+                        <li>PyTorch/TensorFlow</li>
+                        <li>NLP (spaCy, NLTK)</li>
+                        <li>LLM (AWS Bedrock)</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Data Engineering</h3>
+                    <ul>
+                        <li>Python (Pandas, PySpark)</li>
+                        <li>SQL/NoSQL</li>
+                        <li>ETL Pipelines</li>
+                        <li>AWS (S3, Lambda)</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Product Management</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Tableau/Power BI</li>
+                        <li>Agile Methodology</li>
+                        <li>A/B Testing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> eioiseliang@163.com</p>
+                <p><i class="fas fa-phone"></i> +852 5734 5134 | +86 1884589 1721</p>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/juntaoliang" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/eloiseliang" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="Resume_Juntao_LIANG_Eloise.pdf" download><i class="fas fa-file-pdf"></i> Download CV</a>
+            </div>
+            <p class="copyright">© 2024 Juntao (Eloise) Liang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>
